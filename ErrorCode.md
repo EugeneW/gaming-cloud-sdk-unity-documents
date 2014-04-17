@@ -1,6 +1,6 @@
 ## Error Class
 
-If an error occurs in an FGC method, the relevant delegate returns the error class of the Fresvii.GamingCloud.Models namespace.
+If an error occurs in an FGC method, the error class of the Fresvii.GamingCloud.Models namespace will be returned in the relevant delegate.
 The error codes are defined below, followed by the descriptions of the properties.
 
 ### Fields

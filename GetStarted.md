@@ -5,7 +5,7 @@
 2.  Lay out the Fresvii Gaming Cloud prefab to the scene.
 ![Layout prefab](./Images/InstallPrefab.png)
 
-3.  In the Fresvii Gaming Cloud inspector, set the following app information.
+3.  Setup the following app information in the Fresvii Gaming Cloud inspector.
 ![SetParametersInInspector](./Images/SetParametersInInspector.png)
 
 |Data|Type|Description|
@@ -15,7 +15,7 @@
 |Uuid|string|App ID of Fresvii Gaming Cloud|
 |GcmProjectId|string|Project ID when using the Google Cloud Messaging for Android service|
 |Gcm Api Key|string|API key when using the Google Cloud Messaging for Android service|
-When done with the settings of 1 to 3, you can use the methods of the FGC class.
+After setting up 1 through 3, you will be able to use the methods of the FGC class.
 
 4. To use the sample GUI, add the "FresviiSampleGUI" prefab to the scene.
 ![SetParametersInInspector](./Images/InstallPrefabGUI.png)

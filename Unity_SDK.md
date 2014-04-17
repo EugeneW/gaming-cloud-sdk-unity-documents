@@ -3,7 +3,7 @@
 ----------
 ##  Introduction
 Fresvii Gaming Cloud SDK for Unity is an integrated backend gaming service for Unity.
-It allows you to add various backend services tailored to mobile gaming to your game apps free of charge with ease.
+With Fresvii, you can easily incorporate various backend services refined to mobile games into your apps for free.
 
 ##  Classes
 |Namespace|Class|Description|
@@ -22,35 +22,35 @@ Fresvii Gaming Cloud API core function class. The SDK uses static methods of the
 
 |Name|Description|
 |------|-----|
-|[FGC.SignUp](#FGC.SignUp)| Creates a user associated with the app. |
+|[FGC.SignUp](#FGC.SignUp)| Sign up a user associated with the app. |
 |[FGC.LogIn](#FGC.LogIn)| Returns a session token necessary for the user created with SignUp to perform an operation. |
-|[FGC.LogOut](#FGC.LogOut)| Lets you log out. |
+|[FGC.LogOut](#FGC.LogOut)| Log out. |
 |[FGC.GetSnsAccountList](#FGC.GetSnsAccountList)| Gets the list of SNS authentication information registered for the user. |
-|[FGC.SetSnsAccount](#FGC.SetSnsAccount)| Saves the uid acquired through SNS authentication for identifying the user in the SNS and the SNS service name in association with the signin user. |
-|[FGC.DeleteSnsAccount](#FGC.DeleteSnsAccount)| Deletes the SNS authentication information specified by the id. |
-|[FGC.GetAccount](#FGC.GetAccount)|Gets the information on the signin user. |
-|[FGC.PatchAccount](#FGC.PatchAccount)| Sets the information on the signin user. |
-|[FGC.GetUser](#FGC.GetUser)| Gets the information on the user specified by the id. |
-|[FGC.GetUserList](#FGC.GetUserList)| Gets the user list specified by conditions. |
-|[FGC.RegisterRemoteNotification](#FGC.RegisterRemoteNotification)| Registers a notification. |
-|[FGC.UnregisterRemoteNotification](#FGC.UnregisterRemoteNotification)| Unregisters a notification. |
-|[FGC.GetForumThreads](#FGC.GetForumThreads)| Gets the forum thread list. |
-|[FGC.CreateThread](#FGC.CreateThread)| Creates a new thread.|
-|[FGC.DeleteThread](#FGC.DeleteThread)| Deletes a thread.|
-|[FGC.GetThreadComments](#FGC.GetThreadComments)| Gets the thread comment list. |
-|[FGC.Subscribe](#FGC.Subscribe)| Subscribes to a thread. |
-|[FGC.Unsubscribe](#FGC.Unsubscribe)| Unsubscribes from a thread. |
-|[FGC.AddComment](#FGC.AddComment)| Adds a new comment to a thread. |
-|[FGC.EditComment](#FGC.EditComment)| Edits a comment. |
-|[FGC.DeleteComment](#FGC.DeleteComment)| Deletes a comment. |
-|[FGC.LikeComment](#FGC.LikeComment)| Likes a comment. |
-|[FGC.UnlikeComment](#FGC.UnlikeComment)| Unlikes a comment. |
-|[FGC.KeyValueStoreGetAllKeyValueData](#FGC.KeyValueStoreGetAllKeyValueData)| Gets all Key-Value data of the Key Value Store. |
-|[FGC.KeyValueStoreGetAllKeys](#FGC.KeyValueStoreGetAllKeys)| Gets all Keys of the Key Value Store.  |
-|[FGC.KeyValueStoreSetObjectForKey](#FGC.KeyValueStoreSetObjectForKey)| Saves data in the Key Value Store. |
-|[FGC.KeyValueStoreGetObjectForKey](#FGC.KeyValueStoreGetObjectForKey)| Gets data from the Key Value Store. |
-|[FGC.KeyValueStoreRemoveObjectForKey](#FGC.KeyValueStoreRemoveObjectForKey)| Removes data from the Key Value Store. |
-|[FGC.ShowGUI](#FGC.ShowGUI)| Shows the Fresvii GUI. |
+|[FGC.SetSnsAccount](#FGC.SetSnsAccount)| Save the uie, identifies users in the SNS, acquired through SNS authentication and SNS service name associating with signed in user. |
+|[FGC.DeleteSnsAccount](#FGC.DeleteSnsAccount)| Delete the SNS authentication information specified by the id. |
+|[FGC.GetAccount](#FGC.GetAccount)| Get the signed in users status. |
+|[FGC.PatchAccount](#FGC.PatchAccount)| Change the signed in users status. |
+|[FGC.GetUser](#FGC.GetUser)| Get the users status specified by id. |
+|[FGC.GetUserList](#FGC.GetUserList)| Get the user list specified by conditions. |
+|[FGC.RegisterRemoteNotification](#FGC.RegisterRemoteNotification)| Register a notification. |
+|[FGC.UnregisterRemoteNotification](#FGC.UnregisterRemoteNotification)| Unregister a notification. |
+|[FGC.GetForumThreads](#FGC.GetForumThreads)| Get the forum thread list. |
+|[FGC.CreateThread](#FGC.CreateThread)| Create a new thread. |
+|[FGC.DeleteThread](#FGC.DeleteThread)| Delete a thread. |
+|[FGC.GetThreadComments](#FGC.GetThreadComments)| Get the thread comment list. |
+|[FGC.Subscribe](#FGC.Subscribe)| Subscribe to a thread. |
+|[FGC.Unsubscribe](#FGC.Unsubscribe)| Unsubscribe from a thread. |
+|[FGC.AddComment](#FGC.AddComment)| Add a new comment to a thread. |
+|[FGC.EditComment](#FGC.EditComment)| Edit a comment. |
+|[FGC.DeleteComment](#FGC.DeleteComment)| Delete a comment. |
+|[FGC.LikeComment](#FGC.LikeComment)| Like a comment. |
+|[FGC.UnlikeComment](#FGC.UnlikeComment)| Remove like on a comment. |
+|[FGC.KeyValueStoreGetAllKeyValueData](#FGC.KeyValueStoreGetAllKeyValueData)| Get all Key-Value data of the Key Value Store. |
+|[FGC.KeyValueStoreGetAllKeys](#FGC.KeyValueStoreGetAllKeys)| Get all Keys of the Key Value Store.  |
+|[FGC.KeyValueStoreSetObjectForKey](#FGC.KeyValueStoreSetObjectForKey)| Save data in the Key Value Store. |
+|[FGC.KeyValueStoreGetObjectForKey](#FGC.KeyValueStoreGetObjectForKey)| Get data from the Key Value Store. |
+|[FGC.KeyValueStoreRemoveObjectForKey](#FGC.KeyValueStoreRemoveObjectForKey)| Remove data from the Key Value Store. |
+|[FGC.ShowGUI](#FGC.ShowGUI)| Show the Fresvii GUI. |
 
 -----------------
 ### <a name ="FGC.SignUp">FGC.SignUp</a>
@@ -62,9 +62,9 @@ Creates a user associated with the app. The result is returned by the callback w
 |Name|Type|Description|
 |------|------|-----|
 |userName|string|Name of the signup user. If there is no user name, set null.|
-|description|string|Comment on the profile of the signup user. If there is no comment, set null.|
+|description|string|Profile of the signup user. If there is no comment, set null.|
 |profileImage|Texture2D|Image of the signup user. If there is no image, set null.|
-|callback|Action<User, Error>|Delegate to be called after the signup processing|
+|callback|Action<User, Error>|Delegate to be called after the signup process|
 
 #### Examples
 
@@ -94,10 +94,10 @@ Gets a session token necessary for the user created with SignUp to perform an op
 #### Parameters
 |Name|Type|Description|
 |------|------|-----|
-|userId|Action\<Error\> |Delegate to be called after the signin processing|
-|userToken|Action\<Error\> |Delegate to be called after the signin processing|
-|callback|Action\<Error\> |Delegate to be called after the signin processing|
-|lifeTime|int|Time during which the access token remains valid (in seconds). If this parameter is not specified, the default value applies.|
+|userId|Action\<Error\> |Delegate to be called after the signin process|
+|userToken|Action\<Error\> |Delegate to be called after the signin process|
+|callback|Action\<Error\> |Delegate to be called after the signin process|
+|lifeTime|int|Effective time for the access token (in seconds.) If this parameter is not specified, the default value applies.|
 
 #### Example
 
@@ -137,7 +137,7 @@ Lets you log out.
 
 -----------------
 ### <a name ="FGC.GetSnsAccountList">FGC.GetSnsAccountList</a>
-Gets the list of SNS authentication information registered for the user. The result is returned by the callback with the arguments of IList of SnsAccount and Error. 
+Get the list of SNS authentication information registered for the user. The result is returned by the callback with the arguments of IList of SnsAccount and Error. 
   
      public static void GetSnsAccountList(Action<IList<SnsAccount>, Error> callback)
 
@@ -145,7 +145,7 @@ Gets the list of SNS authentication information registered for the user. The res
 |Name|Type|Description|
 |------|------|-----|
 |callback|Action<IList<FGCSnsAccount>, FGCError> |Delegate to be called after acquiring the SNS authentication information list|
-|lifeTime|int|Time during which the access token remains valid (in seconds). If this parameter is not specified, the default value applies.|
+|lifeTime|int|Effective time for the access token (in seconds.) If this parameter is not specified, the default value applies.|
 
 #### Example
 
@@ -171,7 +171,7 @@ Gets the list of SNS authentication information registered for the user. The res
 
 -----------------
 ### <a name ="FGC.SetSnsAccount">FGC.SetSnsAccount</a>
-Saves the uid acquired through SNS authentication for identifying the user in the SNS and the SNS service name in association with the signin user. The result is returned by the callback with the arguments of SnsAccount and Error. 
+Save the uie, identifies users in the SNS, acquired through SNS authentication and SNS service name associating with signed in user. The result is returned by the callback with the arguments of SnsAccount and Error. 
   
 	public static void SetSnsAccount(string uid, string provider, Action<SnsAccount, Error> callback)
  
@@ -180,13 +180,14 @@ Saves the uid acquired through SNS authentication for identifying the user in th
 |------|------|-----|
 |uid|string|ID to identify the user in SNS|
 |provider|string|Provider string such as "facebook" or "twitter"|
-|callback|Action<SnsAccount, Error>|Delegate to be called after processing|
+|accessToken|string|Access token|
+|callback|Action<SnsAccount, Error>|Delegate to be called after process|
 
 #### Example
 
     {
         ....
-        FGC.SetSnsAccount("1111", "facebook", OnSetSnsAccount);
+        FGC.SetSnsAccount("1111", "facebook", "abcdefghijklmn", OnSetSnsAccount);
     }
 
     void OnSetSnsAccount(SnsAccount snsAccount, Error error)
@@ -204,7 +205,7 @@ Saves the uid acquired through SNS authentication for identifying the user in th
 
 -----------------
 ### <a name ="FGC.DeleteSnsAccount">FGC.DeleteSnsAccount </a>
-Deletes the SNS authentication information specified by the id. The result is returned by the callback with the argument of Error. 
+Delete the SNS authentication information specified by the id. The result is returned by the callback with the argument of Error. 
   
 	public static void DeleteSnsAccount(string id, Action<Error> callback)
 
@@ -212,7 +213,7 @@ Deletes the SNS authentication information specified by the id. The result is re
 |Name|Type|Description|
 |------|------|-----|
 |id|string|ID to identify the user in SNS|
-|callback|Action\<Error\>|Delegate to be called after processing|
+|callback|Action\<Error\>|Delegate to be called after process|
 
 #### Example
     {
@@ -235,7 +236,7 @@ Deletes the SNS authentication information specified by the id. The result is re
 
 -----------------
 ### <a name ="FGC.GetAccount">FGC.GetAccount</a>
-Gets the information on the signin user. The result is returned by the callback with the arguments of User and Error. 
+Get the signed in users status. The result is returned by the callback with the arguments of User and Error. 
   
     public static void GetAccount(Action<User, Error> callback)
 
@@ -266,7 +267,7 @@ Gets the information on the signin user. The result is returned by the callback 
 
 -----------------
 ### <a name ="FGC.PatchAccount">FGC.PatchAccount</a>
-Sets the name and profile image of the signin user. The result is returned by the callback with the arguments of User and Error. 
+Set up the name and profile image of the signin user. The result is returned by the callback with the arguments of User and Error. 
   
     public static void PatchAccount(string name,　Action<User, Error> callback)
     public static void PatchAccount(Texture2D profileImage,　Action<User, Error> callback)
@@ -299,7 +300,7 @@ Sets the name and profile image of the signin user. The result is returned by th
 
 -----------------
 ### <a name ="FGC.GetUser">FGC.GetUser</a>
-Gets the information on the user specified by the id. The result is returned by the callback with the arguments of User and Error. 
+Get the users status specified by id. The result is returned by the callback with the arguments of User and Error. 
   
     public static void GetUser(string id, Action<User, Error> callback)
 
@@ -332,7 +333,7 @@ Gets the information on the user specified by the id. The result is returned by 
 
 -----------------
 ### <a name ="FGC.GetUserList">FGC.GetUserList</a>
-Gets the user list specified by conditions. The result is returned by the callback with the arguments of IList of User and Error. 
+Get the user list specified by conditions. The result is returned by the callback with the arguments of IList of User and Error. 
   
     public static void GetUserList(string uid, string provider, Action<IList<User>, Error> callback)
 
@@ -341,7 +342,7 @@ Gets the user list specified by conditions. The result is returned by the callba
 |------|------|-----|
 |uid|string|ID to identify the user in SNS|
 |provider|string|Provider string such as "facebook" or "twitter"|
-|callback| Action<IList<User>, Error> |Delegate to be called after processing|
+|callback| Action<IList<User>, Error> |Delegate to be called after process|
 
 #### Example
 
@@ -369,14 +370,14 @@ Gets the user list specified by conditions. The result is returned by the callba
 
 -----------------
 ### <a name ="FGC.RegisterRemoteNotification">FGC.RegisterRemoteNotification</a>
-Registers a notification.
+Register a notification.
   
     public static void RegisterRemoteNotification(Action<Error> callback)
 
 #### Parameters
 |Name|Type|Description|
 |------|------|-----|
-|callback| Action\<Error\> |Delegate to be called after processing|
+|callback| Action\<Error\> |Delegate to be called after process|
 
 #### Example
 
@@ -408,7 +409,7 @@ Unregisters a notification.
 #### Parameters
 |Name|Type|Description|
 |------|------|-----|
-|callback| Action\<Error\> |Delegate to be called after processing|
+|callback| Action\<Error\> |Delegate to be called after process|
 
 #### Example
 
@@ -433,7 +434,7 @@ Unregisters a notification.
 
 -----------------
 ### <a name ="FGC.GetForumThreads">FGC.GetForumThreads</a>
-Gets the thread list.
+Get the thread list.
   
 	public static void GetForumThreads(Action<IList<Thread>, Error> callback)
 	public static void GetForumThreads(uint page, Action<IList<Thread>, Error> callback)
@@ -442,7 +443,7 @@ Gets the thread list.
 |Name|Type|Description|
 |------|------|-----|
 |callback| Action\<IList\<Thread\>, Error\> |Delegate to be called after acquisition|
-|page|uint|Number of the page to be acquired (option)|
+|page|uint|Page number to be acquired (option.)|
 
 #### Example
 
@@ -464,7 +465,7 @@ Gets the thread list.
 
 -----------------
 ### <a name ="FGC.CreateThread">FGC.CreateThread</a>
-Creates a new thread.
+Create a new thread.
   
 	public static void CreateThread(string text, Action<Thread, Error> callback)
         
@@ -472,7 +473,7 @@ Creates a new thread.
 |Name|Type|Description|
 |------|------|-----|
 |text|string|Comment on the new thread to be created|
-|callback| Action\<IList\<Thread\>, Error\> |Delegate to be called after processing|
+|callback| Action\<IList\<Thread\>, Error\> |Delegate to be called after process|
 
 #### Example
 
@@ -493,14 +494,14 @@ Creates a new thread.
 
 -----------------
 ### <a name ="FGC.DeleteThread">FGC.DeleteThread</a>
-Deletes a thread. Note that a thread can be deleted only by the user who created it.
+Delete a thread. Only the user who created the thread can delete it.
   
 	public static void DeleteThread(string id, Action<Error> callback)
         
 #### Parameters
 |Name|Type|Description|
 |------|------|-----|
-|callback| Action\<IList\<Thread\>, Error\> |Delegate to be called after processing|
+|callback| Action\<IList\<Thread\>, Error\> |Delegate to be called after process|
 
 #### Example
 
@@ -522,7 +523,7 @@ Deletes a thread. Note that a thread can be deleted only by the user who created
 
 -----------------
 ### <a name ="FGC.GetThreadComments">FGC.GetThreadComments</a>
-Gets the thread comment list.
+Get the thread comment list.
   
 	public static void GetThreadComments(string threadId, Action<IList<Comment>, Error> callback)
         
@@ -552,7 +553,7 @@ Gets the thread comment list.
 
 -----------------
 ### <a name ="FGC.Subscribe">FGC.Subscribe</a>
-Subscribes to a thread.
+Subscribe to a thread.
   
 	public static void Subscribe(string threadId, Action<Thread, Error> callback)
         
@@ -560,7 +561,7 @@ Subscribes to a thread.
 |Name|Type|Description|
 |------|------|-----|
 |threadId|string|ID of the thread to which to subscribe|
-|callback| Action\<Thread, Error\> |Delegate to be called after processing|
+|callback| Action\<Thread, Error\> |Delegate to be called after process|
 
 #### Example
 
@@ -580,7 +581,7 @@ Subscribes to a thread.
 
 -----------------
 ### <a name ="FGC.Unsubscribe">FGC.Unsubscribe</a>
-Unsubscribes from a thread.
+Unsubscribe from a thread.
   
 	public static void Unsubscribe(string threadId, Action<Error> callback)
 
@@ -589,7 +590,7 @@ Unsubscribes from a thread.
 |Name|Type|Description|
 |------|------|-----|
 |threadId|string|ID of the thread from which to unsubscribe|
-|callback| Action\<Error\> |Delegate to be called after processing|
+|callback| Action\<Error\> |Delegate to be called after process|
 
 #### Example
 
@@ -609,7 +610,7 @@ Unsubscribes from a thread.
 
 -----------------
 ### <a name ="FGC.AddComment">FGC.AddComment</a>
-Adds a comment to a thread.
+Add a comment to a thread.
   
 	public static void AddComment(string threadId, string text, Action<Comment, Error> callback)        
         
@@ -618,7 +619,7 @@ Adds a comment to a thread.
 |------|------|-----|
 |threadId|string|ID of the thread to which to add a comment|
 |text|string|Comment text to be added|
-|callback| Action\<Comment, Error\>  |Delegate to be called after processing|
+|callback| Action\<Comment, Error\>  |Delegate to be called after process|
 
 #### Example
 	
@@ -634,7 +635,7 @@ Adds a comment to a thread.
 
 -----------------
 ### <a name ="FGC.EditComment">FGC.EditComment</a>
-Edits a comment.
+Edit a comment.
   
 	public static void EditComment(string commentId, string text, Action<Comment, Error> callback)
 
@@ -644,7 +645,7 @@ Edits a comment.
 |------|------|-----|
 |commentId|string|ID of the comment to be edited|
 |text|string|Comment text to be edited|
-|callback| Action\<Comment, Error\>  |Delegate to be called after processing|
+|callback| Action\<Comment, Error\>  |Delegate to be called after process|
 
 #### Example
 	
@@ -660,7 +661,7 @@ Edits a comment.
 
 -----------------
 ### <a name ="FGC.DeleteComment">FGC.DeleteComment</a>
-Deletes a comment.
+Delete a comment.
   
 	public static void DeleteComment(string commentId, Action<Error> callback)
 
@@ -669,7 +670,7 @@ Deletes a comment.
 |Name|Type|Description|
 |------|------|-----|
 |commentId|string|ID of the comment to be deleted|
-|callback| Action\<Error\>  |Delegate to be called after processing|
+|callback| Action\<Error\>  |Delegate to be called after process|
 
 #### Example
 	
@@ -688,7 +689,7 @@ Deletes a comment.
 
 -----------------
 ### <a name ="FGC.LikeComment">FGC.LikeComment</a>
-Likes a comment.
+Like a comment.
   
 	public static void LikeComment(string commentId, Action<Comment, Error> callback)
 
@@ -697,7 +698,7 @@ Likes a comment.
 |Name|Type|Description|
 |------|------|-----|
 |commentId|string|ID of the comment to be liked|
-|callback| Action\<Comment, Error\>  |Delegate to be called after processing|
+|callback| Action\<Comment, Error\>  |Delegate to be called after process|
 
 #### Example
 	
@@ -717,7 +718,7 @@ Likes a comment.
 
 -----------------
 ### <a name ="FGC.UnlikeComment">FGC.UnlikeComment</a>
-Unlikes a comment.
+Remove like on a comment.
   
 	public static void UnlikeComment(string commentId, Action<Error> callback)
 
@@ -726,7 +727,7 @@ Unlikes a comment.
 |Name|Type|Description|
 |------|------|-----|
 |commentId|string|ID of the comment to be unliked|
-|callback| Action\<Error\>  |Delegate to be called after processing|
+|callback| Action\<Error\>  |Delegate to be called after process|
 
 #### Example
 	
@@ -748,7 +749,7 @@ Unlikes a comment.
 -----------------
 
 ### <a name ="FGC.ShowGUI">FGC.ShowGUI</a>
-Shows the GUI. The GUI is read as a scene. When calling this method during a game, save the scene data in advance. The GUI to be shown can be selected using an argument.
+Show the GUI, which will be read as a scene.  This method will be called after saving the scene data during the game. GUI shown with a argument is selectable.
   
 	 public static void ShowGUI(string returnSceneName)
 	 public static void ShowGUI(FresviiGUI.Mode modeFlgs, string returnSceneName)
@@ -757,7 +758,7 @@ Shows the GUI. The GUI is read as a scene. When calling this method during a gam
 |Name|Type|Description|
 |------|------|-----|
 |modeFlgs|FresviiGUI.Mode|Select from Forum, Leaderboards, MyProfile, and All. More than one mode can be selected.|
-|returnSceneName|string|Name of the scene to return to when exiting the GUI (pressing the app icon)|
+|returnSceneName|string|Name of the scene to return when exiting the GUI (pressing the app icon)|
 
 	public enum Mode {Forum = (1 << 0), Leaderboards = (1 << 1), MyProfile = (1 << 2), All = 0xFFFF}; 
 
@@ -779,8 +780,8 @@ User data class
 |string|Name|User name|
 |string|FriendCode|Friend code|
 |string|Id|User ID|
-|string|CreatedAt|Creation date and time |
-|string|UpdatedAt|Update date and time |
+|string|CreatedAt|Creation date and time|
+|string|UpdatedAt|Update date and time|
 
 -----------------
 
@@ -794,8 +795,8 @@ SNS account class
 |string|Id|ID|
 |string|Provider|Provider string such as "facebook" or "twitter"|
 |string|Uid|User ID|
-|string|CreatedAt|Creation date and time |
-|string|UpdatedAt|Update date and time |
+|string|CreatedAt|Creation date and time|
+|string|UpdatedAt|Update date and time|
 
 -----------------
 
@@ -807,8 +808,8 @@ Thread data class
 |Type|Name|Description|
 |---|---|---|
 |string|Id|Thread ID|
-|DateTime|CreatedAt|Creation date and time |
-|DateTime|UpdateAt|Update date and time |
+|DateTime|CreatedAt|Creation date and time|
+|DateTime|UpdateAt|Update date and time|
 |uint|CommentCount|Number of comments|
 |uint|LikeCount|Number of likes|
 |string|UserId|User ID|
@@ -823,8 +824,8 @@ Comment data class
 |Type|Name|Description|
 |---|---|---|
 |string|Id|Comment ID|
-|DateTime|CreatedAt|Creation date and time |
-|DateTime|UpdateAt|Update date and time |
+|DateTime|CreatedAt|Creation date and time|
+|DateTime|UpdateAt|Update date and time|
 |uint|LikeCount|Number of likes|
 |string|ThreadId|Thread ID|
 |User|User|User|

@@ -7,6 +7,7 @@
 
 3.  In the Fresvii Gaming Cloud inspector, set the following app information.
 ![SetParametersInInspector](./Images/SetParametersInInspector.png)
+
 |Data|Type|Description|
 |-------|------|-----|
 |App Icon|Texture2D|Image of the app icon|

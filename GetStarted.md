@@ -11,7 +11,7 @@
 |Data|Type|Description|
 |-------|------|-----|
 |App Icon|Texture2D|Image of the app icon|
-|Host Url|string|Host URL of Fresvii Gaming Cloud|
+|Host Url|string|Host URL of Fresvii Gaming Cloud: https://api.fresvii.com|
 |Uuid|string|App ID of Fresvii Gaming Cloud|
 |GcmProjectId|string|Project ID when using the Google Cloud Messaging for Android service|
 |Gcm Api Key|string|API key when using the Google Cloud Messaging for Android service|

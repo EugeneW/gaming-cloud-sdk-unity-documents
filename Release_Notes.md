@@ -7,7 +7,7 @@
 	- [Android] Display push notification message on screen.
 	- [iOS] Function to save user information with keychain.
 - Fixed Issues
-	- Fixed broken image data「back_icon@2x」
+	- Fixed broken image data [back_icon@2x]
 - Performance Improvements
 	- Don't have to set up host server URL anymore. 
 	- Precise display of GUI and improves in management.

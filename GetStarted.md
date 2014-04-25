@@ -25,7 +25,7 @@ After setting up 1 through 3, you will be able to use the methods of the FGC cla
 ## Build Setting in iOS
 
 User information is saved by keychain with Fresvii Gaming Cloud SDK for Unity in iOS.
-Thus, when building with Xcode, opne (Build Phases -> Link Binary With Libraries) and add "Security.framework".
+Thus, when building with Xcode, open (Build Phases -> Link Binary With Libraries) and add "Security.framework".
 
 ![Security.framework](./Images/xcode_security_framework.png)
 

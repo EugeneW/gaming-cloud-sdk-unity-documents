@@ -4,4 +4,4 @@
 * [Unity SDK Manual](Unity_SDK.md)
 * [Error Code Specs](ErrorCode.md)
 * [FAQ](FAQ.md)
-* [Release Note](Release_Notes.md)
+* [Release Notes](Release_Notes.md)

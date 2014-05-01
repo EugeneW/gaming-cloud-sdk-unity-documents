@@ -25,6 +25,7 @@ Fresvii Gaming Cloud API core function class. The SDK uses static methods of the
 |[FGC.SignUp](#FGC.SignUp)| Sign up a user associated with the app. |
 |[FGC.LogIn](#FGC.LogIn)| Returns a session token necessary for the user created with SignUp to perform an operation. |
 |[FGC.LogOut](#FGC.LogOut)| Log out. |
+|[FGC.LoadSignedUpUsers](#FGC.LoadSignedUpUsers)| Gets the list of signed up users. |
 |[FGC.GetSnsAccountList](#FGC.GetSnsAccountList)| Gets the list of SNS authentication information registered for the user. |
 |[FGC.SetSnsAccount](#FGC.SetSnsAccount)| Save the uie, identifies users in the SNS, acquired through SNS authentication and SNS service name associating with signed in user. |
 |[FGC.DeleteSnsAccount](#FGC.DeleteSnsAccount)| Delete the SNS authentication information specified by the id. |
@@ -133,6 +134,22 @@ Lets you log out.
 
 		FGC.LogOut();
 		.....		
+	}
+
+-----------------
+### <a name ="FGC.LoadSignedUpUsers">FGC.LoadSignedUpUsers</a>
+Gets the list of signed up users.
+
+    public static List<User> LoadSignedUpUsers()
+
+#### Example
+
+	{
+		List<User> users = FGC.LoadSignedUpUsers();
+		if (users.Count > 0)
+		{
+			currentUser = users[users.Count - 1];
+		}		       
 	}
 
 -----------------
